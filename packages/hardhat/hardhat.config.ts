@@ -54,6 +54,10 @@ const config: HardhatUserConfig = {
       url: `https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`,
       accounts: [deployerPrivateKey],
     },
+    auroraTestnet: {
+      url: `https://testnet.aurora.dev`,
+      accounts: [deployerPrivateKey],
+    },
     arbitrum: {
       url: `https://arb-mainnet.g.alchemy.com/v2/${providerApiKey}`,
       accounts: [deployerPrivateKey],
